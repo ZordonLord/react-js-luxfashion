@@ -5,7 +5,7 @@ const Subscribe: React.FC = () => {
   return (
     <div className="sub_container center">
       <div className="testimonial">
-        <img src="/img/Intersect.png" alt="User Image" />
+        <img src="img/Intersect.png" alt="User Image" />
         <p>"Vestibulum quis porttitor dui! Quisque viverra nunc mi, <em>a pulvinar purus condimentum</em>"</p>
       </div>
       <div className="subscribe">
