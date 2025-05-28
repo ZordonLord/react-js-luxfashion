@@ -50,7 +50,7 @@ const Product: React.FC = () => {
         <div className="slider__arrow slider__arrow_left">
           ❮
         </div>
-        <img src={product.image} alt={product.name} />
+        <img src={process.env.PUBLIC_URL + product.image} alt={product.name} />
         <div className="slider__arrow slider__arrow_right">
           ❯
         </div>

@@ -22,7 +22,7 @@ const Home: React.FC = () => {
     <>
       <section className="promo">
         <div className="promo__img">
-          <img src="/img/promo.png" alt="photo promo" />
+          <img src="img/promo.png" alt="photo promo" />
         </div>
         <div className="promo__content">
           <div className="promo__info">
