@@ -34,7 +34,7 @@ const AnimatedRoutes = () => {
 const App: React.FC = () => {
   return (
     <CartProvider>
-      <Router>
+      <Router basename="/react-js-luxfashion">
         <div className="top">
           <Header />
           <AnimatedRoutes />
