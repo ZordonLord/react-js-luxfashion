@@ -34,28 +34,28 @@ const Home: React.FC = () => {
 
       <section className="sale center">
         <div className="sale__item">
-          <img src="/img/si1.jpg" alt="sale image" />
+          <img src="img/si1.jpg" alt="sale image" />
           <Link to="/catalog" className="sale__content">
             <p className="sale__text">30% OFF</p>
             <h3 className="sale__heading">FOR WOMEN</h3>
           </Link>
         </div>
         <div className="sale__item">
-          <img src="/img/si2.jpg" alt="sale image" />
+          <img src="img/si2.jpg" alt="sale image" />
           <Link to="/catalog" className="sale__content">
             <p className="sale__text">HOT DEAL</p>
             <h3 className="sale__heading">FOR MEN</h3>
           </Link>
         </div>
         <div className="sale__item">
-          <img src="/img/si3.jpg" alt="sale image" />
+          <img src="img/si3.jpg" alt="sale image" />
           <Link to="/catalog" className="sale__content">
             <p className="sale__text">NEW ARRIVALS</p>
             <h3 className="sale__heading">FOR KIDS</h3>
           </Link>
         </div>
         <div className="sale__item sale__item_big">
-          <img src="/img/sibig.jpg" alt="sale image" />
+          <img src="img/sibig.jpg" alt="sale image" />
           <Link to="/catalog" className="sale__content">
             <p className="sale__text">LUXIROUS & TRENDY</p>
             <h3 className="sale__heading">ACCESORIES</h3>
