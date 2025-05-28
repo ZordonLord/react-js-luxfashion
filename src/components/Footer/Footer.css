@@ -1,0 +1,60 @@
+footer {
+  background: #222224;
+  min-height: 79px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FBFBFB;
+}
+
+footer .social-icons {
+  display: flex;
+  gap: 7.29px;
+}
+
+footer .social-icons a {
+  text-decoration: none;
+}
+
+footer .social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+footer .social-icons .twt img {
+  width: 32px;
+  height: 32px;
+}
+
+footer .social-icons img:hover {
+  filter: brightness(0) saturate(100%) invert(47%) sepia(99%) saturate(1234%) hue-rotate(325deg) brightness(101%) contrast(101%);
+}
+
+footer .social-icons .twt img:hover {
+  filter: brightness(0) saturate(100%) invert(47%) sepia(99%) saturate(1234%) hue-rotate(325deg) brightness(101%) contrast(101%);
+}
+
+.social-icons-container {
+  width: 32px;
+  height: 32px;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons-container:hover {
+  background: #F16D7F;
+}
+
+.social-icons-container img {
+  width: 16px;
+  height: 16px;
+} 

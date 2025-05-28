@@ -1,0 +1,134 @@
+.sub_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #F2F2F2;
+  padding: 97px 0;
+  margin-bottom: 0px;
+}
+
+.testimonial {
+  width: 360px;
+  text-align: center;
+}
+
+.testimonial img {
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.testimonial p {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #222224;
+}
+
+.testimonial p em {
+  font-weight: 700;
+}
+
+.subscribe {
+  width: 557px;
+  text-align: center;
+}
+
+.subscribe h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 167.2%;
+  color: #222224;
+  margin-bottom: 8px;
+}
+
+.subscribe p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167.2%;
+  color: #222224;
+  margin-bottom: 32px;
+}
+
+.subscribe form {
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe input {
+  width: 256px;
+  height: 49px;
+  background: #E1E1E1;
+  border: none;
+  border-radius: 25px 0 0 25px;
+  padding: 0 22px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #222224;
+}
+
+.subscribe input::placeholder {
+  color: #222224;
+}
+
+.subscribe button {
+  width: 100px;
+  height: 49px;
+  background: #F16D7F;
+  border: none;
+  border-radius: 0 25px 25px 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.subscribe button:hover {
+  background: #E05C6E;
+}
+
+@media screen and (max-width: 1024px) {
+  .sub_container {
+    flex-direction: column;
+    gap: 48px;
+    padding: 64px 0;
+    margin-bottom: 64px;
+  }
+
+  .testimonial,
+  .subscribe {
+    width: 100%;
+    max-width: 360px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sub_container {
+    padding: 48px 0;
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .sub_container {
+    padding: 32px 0;
+    margin-bottom: 32px;
+  }
+
+  .testimonial p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .subscribe h2 {
+    font-size: 20px;
+  }
+
+  .subscribe p {
+    font-size: 16px;
+  }
+} 

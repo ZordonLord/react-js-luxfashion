@@ -1,0 +1,151 @@
+.reg-container-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+  margin-bottom: 96px;
+}
+
+.reg-form-container {
+  width: 360px;
+}
+
+.reg-form-container h2 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+  margin-bottom: 20px;
+}
+
+.reg-form-container input[type="text"],
+.reg-form-container input[type="email"],
+.reg-form-container input[type="password"] {
+  width: 100%;
+  padding: 13px 17px;
+  margin-bottom: 20px;
+  border: 1px solid #A4A4A4;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+}
+
+.reg-gender {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 33px;
+}
+
+.reg-gender label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+}
+
+.reg-form-container small {
+  display: block;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+  margin-bottom: 39px;
+}
+
+.reg-form-container button {
+  width: 167px;
+  height: 50px;
+  background: #F16D7F;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.reg-form-container button:hover {
+  background: #E05C6E;
+}
+
+.reg-perks-container {
+  width: 652px;
+}
+
+.reg-perks-container h2 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 22px;
+}
+
+.reg-perks-container p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 21px;
+}
+
+.reg-perks-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.reg-perks-container li {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 16px;
+  position: relative;
+  padding-left: 43px;
+}
+
+.reg-perks-container li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #F16D7F;
+}
+
+@media screen and (max-width: 1024px) {
+  .reg-container-wrapper {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .reg-form-container,
+  .reg-perks-container {
+    width: 100%;
+    max-width: 360px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .reg-container-wrapper {
+    margin-top: 40px;
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .reg-container-wrapper {
+    margin-top: 24px;
+    margin-bottom: 32px;
+  }
+} 
