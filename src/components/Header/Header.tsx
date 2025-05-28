@@ -12,8 +12,8 @@ const Header: React.FC = () => {
   return (
     <header className="header center">
       <div className="header__left">
-        <Link to="/"><img src="img/logo.png" alt="logo" /></Link>
-        <a href="#"><img src="img/search.svg" alt="search" /></a>
+        <Link to={`${process.env.PUBLIC_URL}/`}><img src={`${process.env.PUBLIC_URL}/img/logo.png`} alt="logo" /></Link>
+        <a href="#"><img src={`${process.env.PUBLIC_URL}/img/search.svg`} alt="search" /></a>
       </div>
       <nav className="header__right">
         <button 
@@ -21,13 +21,13 @@ const Header: React.FC = () => {
           onClick={toggleMenu}
           aria-label="Toggle menu"
         >
-          <img src="img/menu.svg" alt="menu" />
+          <img src={`${process.env.PUBLIC_URL}/img/menu.svg`} alt="menu" />
         </button>
         <Link className="header__link-site" to="/registration">
-          <img src="img/reg.svg" alt="reg" />
+          <img src={`${process.env.PUBLIC_URL}/img/reg.svg`} alt="reg" />
         </Link>
         <Link className="header__link-site" to="/cart">
-          <img src="img/cart.svg" alt="cart" />
+          <img src={`${process.env.PUBLIC_URL}/img/cart.svg`} alt="cart" />
         </Link>
       </nav>
       <div className={`mobile-menu ${isMenuOpen ? 'active' : ''}`}>
