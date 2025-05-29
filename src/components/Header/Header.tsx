@@ -12,7 +12,7 @@ const Header: React.FC = () => {
   return (
     <header className="header center">
       <div className="header__left">
-        <Link to={`${process.env.PUBLIC_URL}/`}><img src={`${process.env.PUBLIC_URL}/img/logo.png`} alt="logo" /></Link>
+        <Link to="/"><img src={`${process.env.PUBLIC_URL}/img/logo.png`} alt="logo" /></Link>
         <a href="#"><img src={`${process.env.PUBLIC_URL}/img/search.svg`} alt="search" /></a>
       </div>
       <nav className="header__right">

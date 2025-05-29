@@ -23,7 +23,7 @@ const Home: React.FC = () => {
     <>
       <section className="promo">
         <div className="promo__img">
-          <img src="img/promo.png" alt="photo promo" />
+          <img src={`${process.env.PUBLIC_URL}/img/promo.png`} alt="photo promo" />
         </div>
         <div className="promo__content">
           <div className="promo__info">
@@ -35,28 +35,28 @@ const Home: React.FC = () => {
 
       <section className="sale center">
         <div className="sale__item">
-          <img src="img/si1.jpg" alt="sale image" />
+          <img src={`${process.env.PUBLIC_URL}/img/si1.jpg`} alt="sale image" />
           <Link to="/catalog" className="sale__content">
             <p className="sale__text">30% OFF</p>
             <h3 className="sale__heading">FOR WOMEN</h3>
           </Link>
         </div>
         <div className="sale__item">
-          <img src="img/si2.jpg" alt="sale image" />
+          <img src={`${process.env.PUBLIC_URL}/img/si2.jpg`} alt="sale image" />
           <Link to="/catalog" className="sale__content">
             <p className="sale__text">HOT DEAL</p>
             <h3 className="sale__heading">FOR MEN</h3>
           </Link>
         </div>
         <div className="sale__item">
-          <img src="img/si3.jpg" alt="sale image" />
+          <img src={`${process.env.PUBLIC_URL}/img/si3.jpg`} alt="sale image" />
           <Link to="/catalog" className="sale__content">
             <p className="sale__text">NEW ARRIVALS</p>
             <h3 className="sale__heading">FOR KIDS</h3>
           </Link>
         </div>
         <div className="sale__item sale__item_big">
-          <img src="img/sibig.jpg" alt="sale image" />
+          <img src={`${process.env.PUBLIC_URL}/img/sibig.jpg`} alt="sale image" />
           <Link to="/catalog" className="sale__content">
             <p className="sale__text">LUXIROUS & TRENDY</p>
             <h3 className="sale__heading">ACCESORIES</h3>
@@ -70,7 +70,7 @@ const Home: React.FC = () => {
         <div className="product-box__content">
           {productsData.products.slice(0, 6).map((product) => (
             <div key={product.id} className="product">
-              <img className="product__img" src={product.image} alt={product.name} />
+              <img className="product__img" src={`${process.env.PUBLIC_URL}/${product.image}`} alt={product.name} />
               <div className="product__content">
                 <Link to={`/product/${product.id}`} className="product__heading">{product.name}</Link>
                 <p className="product__text">{product.description}</p>
@@ -113,21 +113,21 @@ const Home: React.FC = () => {
 
       <div className="advantages center">
         <article className="advantages__item">
-          <img className="advantages__img" src="/img/advantages-img.svg" alt="" />
+          <img className="advantages__img" src={`${process.env.PUBLIC_URL}/img/advantages-img.svg`} alt="" />
           <h3 className="advantages__heading">Free Delivery</h3>
           <p className="advantages__text">
             Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
           </p>
         </article>
         <article className="advantages__item">
-          <img className="advantages__img" src="/img/advantages-img.svg" alt="" />
+          <img className="advantages__img" src={`${process.env.PUBLIC_URL}/img/advantages-img.svg`} alt="" />
           <h3 className="advantages__heading">Sales & discounts</h3>
           <p className="advantages__text">
             Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
           </p>
         </article>
         <article className="advantages__item">
-          <img className="advantages__img" src="/img/advantages-img.svg" alt="" />
+          <img className="advantages__img" src={`${process.env.PUBLIC_URL}/img/advantages-img.svg`} alt="" />
           <h3 className="advantages__heading">Quality assurance</h3>
           <p className="advantages__text">
             Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
