@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/react-js-luxfashion/static/css/main.ad681f09.css",
-    "main.js": "/react-js-luxfashion/static/js/main.d73aefbf.js",
+    "main.js": "/react-js-luxfashion/static/js/main.f6335387.js",
     "static/js/453.255a7969.chunk.js": "/react-js-luxfashion/static/js/453.255a7969.chunk.js",
     "static/media/subscribe.jpg": "/react-js-luxfashion/static/media/subscribe.c0d97bdcc7396d3fbdac.jpg",
     "index.html": "/react-js-luxfashion/index.html",
     "main.ad681f09.css.map": "/react-js-luxfashion/static/css/main.ad681f09.css.map",
-    "main.d73aefbf.js.map": "/react-js-luxfashion/static/js/main.d73aefbf.js.map",
+    "main.f6335387.js.map": "/react-js-luxfashion/static/js/main.f6335387.js.map",
     "453.255a7969.chunk.js.map": "/react-js-luxfashion/static/js/453.255a7969.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ad681f09.css",
-    "static/js/main.d73aefbf.js"
+    "static/js/main.f6335387.js"
   ]
 }
