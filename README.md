@@ -1,6 +1,6 @@
 # Вёрстка сайта LuxFashion на React-JS из HTML/CSS
 
-[![React](https://img.shields.io/badge/React-JS-17-blue?logo=react&logoColor=white)](https://react.dev/)
+[![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
